@@ -1,0 +1,90 @@
+body{      
+		color: #24211D; 
+	    font-size: 14px; 
+	    font-family:Arial, sans-serif; 
+	    background: #FFFAF0;
+	}
+	#container {
+		margin:10px auto;
+		padding:10px;
+		background: #FAEBD7;
+		font-weight: bold;
+		-webkit-border-radius: 5px;
+	    border-radius: 5px;
+	}
+	input {
+		padding: 3px 0;
+	}
+	.block {
+		width:100%;
+		margin:auto;
+		display:block;
+		background: #FFF;
+	}
+	h1{
+		display:block;
+		margin-bottom:5px;
+		text-align:center;
+		padding:10px;
+		font-size:16px;
+		background: #6AC334;
+		color:#FFF;
+		-webkit-border-radius: 5px;
+	    border-radius: 5px;
+	}
+	button {
+		padding:10px 30px;
+	    background:#6AC334;
+	    color: #FFF;
+	    font-weight: bold;
+	    text-decoration: none;
+	    	
+	    border: 0;
+	    -webkit-border-radius: 5px;
+	    border-radius: 5px;
+	}
+	
+	.clear {
+		clear:both;
+	}
+	#erro {
+		margin-top: 10px;
+		font-weight: bold;
+		color: red;
+	}
+	#sucesso {
+		margin-top: 10px;
+		font-weight: bold;
+		color: green;
+	}
+	
+	#sair {
+		text-decoration: none;
+		margin-bottom:15px;
+		padding: 10px 30px;
+		background: #6AC334;
+		font-size: 14px;
+		color: #FFF;
+		-webkit-border-radius: 5px;
+	    border-radius: 5px;
+	}
+	
+table{
+	margin-bottom:5px;
+	width:100%;
+	border-collapse:collapse;
+	border-bottom:2px solid #6969AF;
+}
+table thead tr{
+	background:#6969AF;
+			
+}
+table th, table td{
+	padding:10px;
+	text-align: center;
+	font-weight: bold;
+}
+.firstline {background-color: #FAF0E6; width: 250px;}
+.secondline {background-color: #FFEBCD; width: 250px;}
+a, a:link, a:visited {text-decoration: none; color: #E37003;}
+a:hover, a.over {text-decoration: none; color: #E37003; background-color: #F7F7FF;}

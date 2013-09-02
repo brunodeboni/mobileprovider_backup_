@@ -1,0 +1,86 @@
+*{
+    font: 13px/1.6 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+#formulario {
+    width: 700px;
+    padding: 5px;
+}
+
+#formulario h1 {
+	margin-bottom: 15px;
+	padding: 20px 0 20px 30px;
+	width: 93%;
+	background: #6AC334;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 16px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.block {
+	display: block;
+	width: 93%;
+}
+input, select {
+    padding:3px;
+}
+.descricao {
+	font-style: italic;
+	font-size: 12px;
+}
+#subdominio {
+	width: 25%;
+}
+#erro{
+	display: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+	padding: 5px 10px;
+	background: #FEE;
+	color: #900;
+}
+#erro2{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 5px 10px;
+	width: 90%;
+	padding: 5px 10px;
+	background: #FEE;
+	color: #900;
+}
+#div_sucesso{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+	padding: 5px 10px;
+	background: #FFA56F;
+	color: #FFF;
+	font-weight: bold;
+}
+#btn{
+	margin: auto;
+	padding: 5px 20px;
+	width: 100px;
+	background: #E37002;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 15px;
+	border: 0;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 5px #888;
+	box-shadow: 1px 1px 5px #888;
+}
+
+
+#footer {
+	position: absolute;
+	top: 1080px;
+	z-index: 2;
+	width: 1000px;
+	height: 200px;
+	background: #D5E2E5;
+}

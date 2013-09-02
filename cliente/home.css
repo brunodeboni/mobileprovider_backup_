@@ -1,0 +1,75 @@
+body{
+    color: #24211D;
+    font-size: 16px;
+    font-family:Arial, sans-serif;
+    background-image: url('../img/userpanel/fundo.png');
+    background-size: 100% 100%;
+   	background-attachment: fixed;
+   	background-repeat: no-repeat;
+}
+
+#container {
+	background-image: url('../img/userpanel/login.png');
+	background-size: 950px 100%;
+	width: 950px;
+	height: 320px;
+	margin: 70px auto 0 auto;
+}
+#chamada {
+	width: 350px;
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+#home {
+	color: #333;
+	font-weight: bold;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 500px;
+}
+#form {
+	width: 200px;
+	margin-left: 680px;
+	padding: 10px 20px;
+	font-weight: bold;
+	color: #FFF;
+}
+#form a {
+	color: #FFF;
+	font-size: 18px;
+}
+input {
+    padding: 3px 0;
+}
+.block {
+    width:100%;
+    margin:auto;
+    display:block;
+    background: #FFF;
+}
+
+button {
+	margin-top: 10px;
+    padding:10px 30px;
+    background:#E37003;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    border: 0;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.clear {
+    clear:both;
+}
+
+#erro {
+	margin-top: -10px;
+	margin-left: 700px;
+	padding-bottom: 10px;
+    font-weight: bold;
+    color: red;
+}
